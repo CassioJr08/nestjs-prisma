@@ -12,7 +12,7 @@ async function bootstrap() {
     new ValidationPipe({
       whitelist: true, //define uma lista com as propriedades aceitadas
       forbidNonWhitelisted: true, // recusar requisições se necessario
-      transform: true, // trasnforma os dados da requisição de acordo com o dto
+      transform: true, // transforma os dados da requisição de acordo com o dto
     }),
   );
   //app.useGlobalFilters(new HttpExceptionFilter());
